@@ -8,6 +8,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(SOURCE_FILES
         main.c
         source/command/init.c
+        source/core/genconf.c
 )
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
